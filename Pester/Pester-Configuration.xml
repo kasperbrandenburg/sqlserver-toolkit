@@ -1,0 +1,9 @@
+﻿<Pester>
+	<ProjectName>sqlserver-toolkit</ProjectName>
+	<RootFolder>C:\Pester\Tests\</RootFolder>
+	<Tests>
+		<Test_Invoke-BackupSqlAgentJobs>
+			<ServerInstance>localhost\sql201201</ServerInstance>
+		</Test_Invoke-BackupSqlAgentJobs>
+	</Tests>
+</Pester>

@@ -12,7 +12,7 @@
 ModuleToProcess = 'sqlserver-toolkit.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.1.0'
+ModuleVersion = '0.1.1'
 
 # ID used to uniquely identify this module
 GUID = '8F149ACD-6B12-4786-99AE-595BB93A1F7B'
