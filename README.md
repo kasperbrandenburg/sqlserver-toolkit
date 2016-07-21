@@ -3,6 +3,7 @@ This script library is a work-in-progress set of generic scripts, to use for SQL
 It will contain everything from performance counter collection to SQL Agent job copy functions.
 It probably only testet on the latest version of SQL Server, so test before you implement.
 
+Support on this is limited, i'll do what i can, and when i can.
 
 ## Index maintenance and database backup
 If you are looking for at good index maintence scripts, goto https://ola.hallengren.com/

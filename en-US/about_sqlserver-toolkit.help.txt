@@ -1,0 +1,13 @@
+TOPIC
+    about_sqlserver-toolkit
+
+SHORT DESCRIPTION
+    Provides background information about the sqlserver-toolkit module.
+    
+  About sqlserver-toolkit
+ 
+LINKS
+	https://github.com/kasperbrandenburg/sqlserver-toolkit
+ 
+SEE ALSO
+    
