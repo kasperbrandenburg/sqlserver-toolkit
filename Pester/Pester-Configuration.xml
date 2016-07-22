@@ -2,8 +2,14 @@
 	<ProjectName>sqlserver-toolkit</ProjectName>
 	<RootFolder>C:\Pester\Tests\</RootFolder>
 	<Tests>
+	
 		<Test_Invoke-BackupSqlAgentJobs>
 			<ServerInstance>localhost\sql201201</ServerInstance>
 		</Test_Invoke-BackupSqlAgentJobs>
+	
+		<Test_Invoke-RestoreSqlAgentJobs>
+			<ServerInstance>localhost\sql201201</ServerInstance>
+		</Test_Invoke-RestoreSqlAgentJobs>
+		
 	</Tests>
 </Pester>

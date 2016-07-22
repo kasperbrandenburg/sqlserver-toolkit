@@ -7,7 +7,7 @@
     $TestFolder = $PesterConfig.Pester.RootFolder+"\"+$PesterConfig.Pester.ProjectName+"\"+$TestName
     
     # Creating test folder structure if missing
-    If( -not(Test-Path $TestFolder) ) { New-Item -ItemType Folder -Path $TestFolder }
+    If( -not(Test-Path $TestFolder) ) { New-Item -ItemType Folder -Path $TestFolder -Verbose }
 
     # Clean out old test data before run
     Remove-Item $TestFolder\*.sql -Force -Verbose

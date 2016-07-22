@@ -36,6 +36,9 @@ Function Invoke-RestoreSqlAgentJobs
             http://stackoverflow.com/questions/15580003/error-when-inserting-strings-with-with-invoke-sqlcmd-in-powershell
             http://msdn.microsoft.com/en-us/library/cc281720.aspx
         #>
+
+        Write-Verbose "Restoring $Job into $ServerInstance"
         Invoke-Sqlcmd -ServerInstance "$ServerInstance" -Database "msdb" -Query "$Query" -DisableVariables
+        Write-Information "Restore of $Job into $ServerInstance completed with sucess"
     }
 }
